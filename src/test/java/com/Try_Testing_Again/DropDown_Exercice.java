@@ -35,7 +35,7 @@ public class DropDown_Exercice {
 		Select monthDropdown = new Select(driver.findElement(By.id("month")));
 		Select dayDropdown = new Select(driver.findElement(By.id("day")));
 		Select yearDropdown = new Select(driver.findElement(By.id("year")));
-		monthDropdown.selectByValue("10");
+		monthDropdown.selectByValue("11");
 		dayDropdown.selectByValue("19");
 		yearDropdown.selectByValue("1973");
 		driver.findElement(By.xpath("//input[@value='2']")).click();
